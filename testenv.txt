@@ -1,0 +1,25 @@
+# ============================================================================
+# PATCHBOUNTY // @aegis — ENVIRONMENT CONFIGURATION
+# ============================================================================
+# Required: Single ASI:One API Key (powers 50/50 Dual Load Balancer: asi1 + asi1-mini)
+ASI_ONE_API_KEY=your_asi_one_api_key_here
+ASI_ONE_BASE_URL=https://api.asi1.ai/v1
+ASI_ONE_ROUTING_MODE=dual_round_robin
+
+# Optional: Higher GitHub Public REST API rate limit for large repository scans
+GITHUB_TOKEN=
+
+# Optional: Change this string anytime to generate a brand-new @aegis address + Mailbox URL for another email account!
+AEGIS_SEED=patchbounty-aegis-command-coordinator-v10
+
+# Optional: Agentverse Mailbox API Key (or connect via printed Inspector URL)
+AGENTVERSE_API_KEY=eyJhbGciOiJSUzI1NiJ9.eyJleHAiOjE3OTU0MzI0MjIsImlhdCI6MTc5Mjg0MDQyMiwiaXNzIjoiZmV0Y2guYWkiLCJqdGkiOiJlMDZjYjEyNzMzNGRhOTk0YzkxNmIyOTIiLCJzY29wZSI6ImF2Iiwic3ViIjoiYTQ5NDgwZTQ2YWYwOWNkNGIyYzAwYTE2NzRiZWQxYmFlMzRhMTI3MGVkZWQyMjQ5In0.KMiyYqSwP5Qg2nIPZKqQPzH45ztRW14e3BcM3MSA5d-o9NljMokAokad5KOPlFCWgF-GYDA1Qkkj73LPX8njXwPqLXu_QjMI6jydSOLaKk2JRhGMM7qNSX533doCyaUPe-0Tu8ZXpyUkzsDxUcA5n_5pVHBGwzIOwiC99KLdqVe9jy4pr5XqcgbocL8WpngSTyDoUAj8__X3iVEj6vj-O3FtZXR8rSvkHA91s3EsVbXoFyW2e3tMXVsih_fud3RTDmafL7qy0y_KY2tEh7qbuDLB-t4S1j2beOfauystks4FAIYcb6PbNJU0XqG7s5aiTS_ZpmaKC640fwaxN-PJFg
+NVD_API_KEY=35FCE843-C049-4748-85ED-978663EAF4E3   # Optional (free): https://nvd.nist.gov/developers/request-an-api-key — NVD live data aur tez/stable ho jayega
+
+# Optional: Post-payment auto email ke liye SMTP (Gmail App Password chalega)
+# Na lagao to bhi report + ready .eml draft download ban jata hai (jhootha send nahi hota)
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=
+SMTP_FROM=
+SMTP_PASS=

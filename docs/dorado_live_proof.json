@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "status": "CONFIRMED_ON_DORADO",
+  "protocol": "AgentPaymentProtocol v0.1.0 (CompletePayment)",
+  "network": "Fetch.ai Dorado Testnet (dorado-1)",
+  "tx_hash": "9B5407E88F1063936ABF1793AD67291FD446EED815672DF3A065803DA8E71156",
+  "block_height": 25819318,
+  "sender_maintainer_wallet": "fetch1jvlze26g5ed2ua0unw0yc8pl7cp24sh2xwm9x2",
+  "recipient_researcher_wallet": "fetch182wut09g9wfgctmcc9m0y67ck7t2fc9hldl2y7",
+  "amount_display": "0.05 TESTFET",
+  "amount_atestfet": "50000000000000000",
+  "explorer_url": "https://companion.fetch.ai/dorado-1/transactions/9B5407E88F1063936ABF1793AD67291FD446EED815672DF3A065803DA8E71156"
+}
